@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Make</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: pink; /* Light pink background */
+            color: #4a4a4a; /* Dark text */
+        }
+
+        header {
+            background-color: maroon; /* Dark red */
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 80px;
+            height: auto;
+            margin-right: 15px;
+        }
+
+        .business-name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #ffccd4; /* Light pink hover */
+        }
+
+        main {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .tagline {
+            font-size: 36px;
+            color: maroon;
+            margin-bottom: 20px;
+        }
+
+        .intro-text {
+            font-size: 18px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            margin-bottom: 40px;
+        }
+
+        .cake-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two columns */
+            gap: 30px;
+            max-width: 550px;
+            margin: 0 auto;
+            margin-bottom: 50px;
+        }
+
+        .cake-item {
+            background-color: maroon;
+            border: 1.5px solid maroon;
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .cake-item img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+        }
+
+        .cake-item .price {
+            padding: 20px;
+            background-color: maroon;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        footer {
+            background-color: maroon;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: free;
+            width: 97.7y5%;
+            bottom: 0;
+        }
+
+    </style>
+</head>
+<body></body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Cake Make Logo" class="logo"> <!-- Add your logo here -->
+            <div class="business-name">CAKE MAKE</div>
+        </div>
+        <nav>
+            <a href="#home">Home</a> <!-- Scrolls to the top of the page -->
+            <a href="about.html">About</a> <!-- Opens the About page in a new tab -->
+                <a href="https://www.instagram.com/cakemake56?igsh=MXhvdmVxNzZ4MGxzcg==" target="_blank">Contact</a> <!-- Opens Instagram profile -->
+        </nav>
+    </header>
+
+    <main>
+        <div class="tagline"><B>Cake that makes memories!</B></div>
+        <p class="intro-text">Cake Make is all about bringing you homemade, deliciously crafted treats made with care and the finest ingredients. From rich, fudgy brownies to classic cakes, every bite is designed to satisfy your sweet cravings. Indulge in desserts that feel just like home!</p>
+
+        <!-- Cake images grid -->
+        <div class="cake-grid">
+            <!-- Cake item 1 -->
+            <div class="cake-item">
+                <img src="Vanilla.jpeg" alt="Cake 1"> <!-- Add your cake image path -->
+                <div class="price">PKR 750 - Vanilla Cake</div>
+            </div>
+
+            <!-- Cake item 2 -->
+            <div class="cake-item">
+                <img src="chocolate cake.jpeg" alt="Cake 2"> <!-- Add your cake image path -->
+                <div class="price">PKR 850 - Chocolate Cake</div>
+            </div>
+
+            <!-- Cake item 3 -->
+            <div class="cake-item">
+                <img src="choco vanilla.jpeg" alt="Cake 3"> <!-- Add your cake image path -->
+                <div class="price">PKR 800 - Choco Vanilla</div>
+            </div>
+
+            <!-- Cake item 4 -->
+            <div class="cake-item">
+                <img src="Brownies.jpeg" alt="Cake 4"> <!-- Add your cake image path -->
+                <div class="price">PKR 500 - Fudge Brownies</div>
+            </div>
+
+            <!-- Add more cakes as needed -->
+        </div>
+    </main>
+
+    <footer>
+        &copy; CopyRight Cake Make. All rights reserved.
+    </footer>
+</body>
+</html>
